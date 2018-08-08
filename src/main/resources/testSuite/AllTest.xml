@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test">
+  <test name="Login Test">
+      
+    <classes>
+      <class name="com.uiFramework.companyName.projectName.testScripts.TestLogin"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="PLP Test">
+    <classes>
+      <class name="com.uiFramework.companyName.projectName.testScripts.Test1"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Register Test">
+    <classes>
+      <class name="com.uiFramework.companyName.projectName.testScripts.Test2"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="TestLoginWithDataDriver">
+    <classes>
+      <class name="com.uiFramework.companyName.projectName.testScripts.loginPage.TestLoginWithDataDriver"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

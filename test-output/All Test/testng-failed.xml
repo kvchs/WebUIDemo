@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test]">
+  <test thread-count="5" name="PLP Test(failed)">
+    <classes>
+      <class name="com.uiFramework.companyName.projectName.testScripts.Test1">
+        <methods>
+          <include name="testLogin2"/>
+          <include name="testLogin4"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.uiFramework.companyName.projectName.testScripts.Test1 -->
+    </classes>
+  </test> <!-- PLP Test(failed) -->
+  <test thread-count="5" name="Register Test(failed)">
+    <classes>
+      <class name="com.uiFramework.companyName.projectName.testScripts.Test2">
+        <methods>
+          <include name="testLogin2"/>
+          <include name="beforeMethod"/>
+          <include name="testLogin4"/>
+          <include name="beforeClass"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.uiFramework.companyName.projectName.testScripts.Test2 -->
+    </classes>
+  </test> <!-- Register Test(failed) -->
+</suite> <!-- Failed suite [All Test] -->

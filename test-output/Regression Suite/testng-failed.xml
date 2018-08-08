@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
+  <listeners>
+    <listener class-name="com.uiFramework.companyName.projectName.helper.listener.ExtentListener"/>
+  </listeners>
+  <test thread-count="5" name="second test(failed)">
+    <classes>
+      <class name="com.uiFramework.B">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="testLogin"/>
+          <include name="beforeClass"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.uiFramework.B -->
+    </classes>
+  </test> <!-- second test(failed) -->
+  <test thread-count="5" name="third test(failed)">
+    <classes>
+      <class name="com.uiFramework.C">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="testLogin"/>
+          <include name="beforeClass"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.uiFramework.C -->
+    </classes>
+  </test> <!-- third test(failed) -->
+  <test thread-count="5" name="TestScreenShot(failed)">
+    <classes>
+      <class name="com.uiFramework.companyName.projectName.testScripts.TestScreenShot">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="testScreen"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.uiFramework.companyName.projectName.testScripts.TestScreenShot -->
+    </classes>
+  </test> <!-- TestScreenShot(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->

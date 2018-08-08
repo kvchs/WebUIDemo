@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<a href='D:\eclipse-workspace\uiFramework\src\main\resources\screenShots\blank_2018-08-08-10-12-34.png'><img src='D:\eclipse-workspace\uiFramework\src\main\resources\screenShots\blank_2018-08-08-10-12-34.png'height='100' width='100'/></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='D:\eclipse-workspace\uiFramework\src\main\resources\screenShots\testLogin_2018-08-08-10-12-40.png'><img src='D:\eclipse-workspace\uiFramework\src\main\resources\screenShots\testLogin_2018-08-08-10-12-40.png'height='100' width='100'/></a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23664" started-at="2018-08-08T02:12:19Z" finished-at="2018-08-08T02:12:42Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23664" started-at="2018-08-08T02:12:19Z" finished-at="2018-08-08T02:12:42Z">
+      <class name="com.uiFramework.companyName.projectName.testScripts.TestLogin">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.uiFramework.companyName.projectName.testScripts.TestLogin@4f970963]" name="beforeSuite" is-config="true" duration-ms="199" started-at="2018-08-08T02:12:19Z" finished-at="2018-08-08T02:12:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.uiFramework.companyName.projectName.testScripts.TestLogin@4f970963]" name="beforeTest" is-config="true" duration-ms="6241" started-at="2018-08-08T02:12:19Z" finished-at="2018-08-08T02:12:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.uiFramework.companyName.projectName.testScripts.TestLogin@4f970963]" name="beforeMethod" is-config="true" duration-ms="9" started-at="2018-08-08T02:12:25Z" finished-at="2018-08-08T02:12:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.uiFramework.companyName.projectName.testScripts.TestLogin.testLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.uiFramework.companyName.projectName.testScripts.TestLogin@4f970963]" name="testLogin" duration-ms="15493" started-at="2018-08-08T02:12:25Z" description="This is a demo write case " finished-at="2018-08-08T02:12:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='D:\eclipse-workspace\uiFramework\src\main\resources\screenShots\blank_2018-08-08-10-12-34.png'><img src='D:\eclipse-workspace\uiFramework\src\main\resources\screenShots\blank_2018-08-08-10-12-34.png'height='100' width='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.uiFramework.companyName.projectName.testScripts.TestLogin@4f970963]" name="afterMethod" is-config="true" duration-ms="977" started-at="2018-08-08T02:12:40Z" finished-at="2018-08-08T02:12:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=TestLogin.testLogin()[pri:0, instance:com.uiFramework.companyName.projectName.testScripts.TestLogin@4f970963] output=<a href='D:\eclipse-workspace\uiFramework\src\main\resources\screenShots\blank_2018-08-08-10-12-34.png'><img src='D:\eclipse-workspace\uiFramework\src\main\resources\screenShots\blank_2018-08-08-10-12-34.png'height='100' width='100'/></a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='D:\eclipse-workspace\uiFramework\src\main\resources\screenShots\testLogin_2018-08-08-10-12-40.png'><img src='D:\eclipse-workspace\uiFramework\src\main\resources\screenShots\testLogin_2018-08-08-10-12-40.png'height='100' width='100'/></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.uiFramework.companyName.projectName.testScripts.TestLogin@4f970963]" name="afterTest" is-config="true" duration-ms="918" started-at="2018-08-08T02:12:41Z" finished-at="2018-08-08T02:12:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.uiFramework.companyName.projectName.testScripts.TestLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
