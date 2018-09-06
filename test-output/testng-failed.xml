@@ -1,19 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.uiFramework.companyName.projectName.testScripts.loginPage.TestLoginWithDataDriver">
+      <class name="com.uiFramework.companyName.projectName.testScripts.Test1">
         <methods>
+          <include name="testLogin2"/>
+          <include name="testLogin4"/>
           <include name="beforeMethod"/>
-          <include name="beforeClass"/>
           <include name="afterTest"/>
           <include name="beforeTest"/>
           <include name="afterMethod"/>
-          <include name="loginTest"/>
           <include name="beforeSuite"/>
         </methods>
-      </class> <!-- com.uiFramework.companyName.projectName.testScripts.loginPage.TestLoginWithDataDriver -->
+      </class> <!-- com.uiFramework.companyName.projectName.testScripts.Test1 -->
+      <class name="com.uiFramework.companyName.projectName.testScripts.Test2">
+        <methods>
+          <include name="testLogin2"/>
+          <include name="beforeMethod"/>
+          <include name="testLogin4"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.uiFramework.companyName.projectName.testScripts.Test2 -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

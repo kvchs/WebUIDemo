@@ -8,7 +8,8 @@
           <include name="testLogin2"/>
           <include name="testLogin4"/>
           <include name="beforeMethod"/>
-          <include name="beforeClass"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
           <include name="afterMethod"/>
           <include name="beforeSuite"/>
         </methods>
@@ -18,7 +19,8 @@
           <include name="testLogin2"/>
           <include name="beforeMethod"/>
           <include name="testLogin4"/>
-          <include name="beforeClass"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
           <include name="afterMethod"/>
           <include name="beforeSuite"/>
         </methods>
